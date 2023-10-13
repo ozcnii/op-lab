@@ -1,0 +1,14 @@
+C:\Users\qq\Desktop\aerokos\osnoviiiii\test-app\bin\Debug\net7.0\test-app.exe
+C:\Users\qq\Desktop\aerokos\osnoviiiii\test-app\bin\Debug\net7.0\test-app.deps.json
+C:\Users\qq\Desktop\aerokos\osnoviiiii\test-app\bin\Debug\net7.0\test-app.runtimeconfig.json
+C:\Users\qq\Desktop\aerokos\osnoviiiii\test-app\bin\Debug\net7.0\test-app.dll
+C:\Users\qq\Desktop\aerokos\osnoviiiii\test-app\bin\Debug\net7.0\test-app.pdb
+C:\Users\qq\Desktop\aerokos\osnoviiiii\test-app\obj\Debug\net7.0\test-app.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\qq\Desktop\aerokos\osnoviiiii\test-app\obj\Debug\net7.0\test-app.AssemblyInfoInputs.cache
+C:\Users\qq\Desktop\aerokos\osnoviiiii\test-app\obj\Debug\net7.0\test-app.AssemblyInfo.cs
+C:\Users\qq\Desktop\aerokos\osnoviiiii\test-app\obj\Debug\net7.0\test-app.csproj.CoreCompileInputs.cache
+C:\Users\qq\Desktop\aerokos\osnoviiiii\test-app\obj\Debug\net7.0\test-app.dll
+C:\Users\qq\Desktop\aerokos\osnoviiiii\test-app\obj\Debug\net7.0\refint\test-app.dll
+C:\Users\qq\Desktop\aerokos\osnoviiiii\test-app\obj\Debug\net7.0\test-app.pdb
+C:\Users\qq\Desktop\aerokos\osnoviiiii\test-app\obj\Debug\net7.0\test-app.genruntimeconfig.cache
+C:\Users\qq\Desktop\aerokos\osnoviiiii\test-app\obj\Debug\net7.0\ref\test-app.dll
