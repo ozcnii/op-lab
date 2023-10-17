@@ -3,7 +3,7 @@ var main = (Dictionary<string, Action> menuActions) =>
     while (true)
     {
         Console.WriteLine("Выберите один из пунтов меню");
-        Console.WriteLine("0 - Выход");
+        Console.WriteLine("0 - Осознанное завершение");
 
         for (int index = 0; index < menuActions.Count; index++)
         {
