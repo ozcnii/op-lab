@@ -143,20 +143,18 @@ class DecimalCounter
 
     public void Increase(int incValue)
     {
-        int newValue = value + incValue;
-        if (newValue > maxValue)
-            value = newValue - maxValue + minValue;
+        if (value + incValue > maxValue)
+            value = value + incValue - maxValue + minValue;
         else
-            value = newValue;
+            value += incValue;
     }
 
     public void Decrease(int decValue)
     {
-        int newValue = value - decValue;
-        if (newValue < minValue)
-            value = maxValue - (minValue - newValue);
+        if (value - decValue < minValue)
+            value = maxValue - (minValue - value - decValue);
         else
-            value = newValue;
+            value -= decValue;
     }
 
     public int GetValue()
