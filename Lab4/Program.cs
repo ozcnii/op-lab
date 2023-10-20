@@ -111,12 +111,6 @@ main(new Dictionary<string, Action>{
                     break;
             }
         }
-        // var p1 = new Polynomial(1, 5, 6);
-        // Console.WriteLine(p1.GetSolution());
-        // var p2 = new Polynomial(1, -4, 4);
-        // Console.WriteLine(p2.GetSolution());
-        // var p3 = new Polynomial(1, 3, 9);
-        // Console.WriteLine(p3.GetSolution());
     }}
 });
 
@@ -143,7 +137,7 @@ class DecimalCounter
     {
         int newValue = value + incValue;
         if (newValue > maxValue)
-            value = (newValue - maxValue) + minValue;
+            value = newValue - maxValue + minValue;
         else
             value = newValue;
     }
