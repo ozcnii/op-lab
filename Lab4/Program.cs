@@ -131,7 +131,6 @@ class DecimalCounter
         {
             this.minValue = minValue;
             this.maxValue = maxValue;
-
         }
 
         if (value > maxValue)
