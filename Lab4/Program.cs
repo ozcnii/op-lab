@@ -122,8 +122,17 @@ class DecimalCounter
 
     public DecimalCounter(int minValue, int maxValue, int value)
     {
-        this.minValue = minValue;
-        this.maxValue = maxValue;
+        if (minValue > maxValue)
+        {
+            this.minValue = maxValue;
+            this.maxValue = minValue;
+        }
+        else
+        {
+            this.minValue = minValue;
+            this.maxValue = maxValue;
+
+        }
 
         if (value > maxValue)
             this.value = maxValue;
