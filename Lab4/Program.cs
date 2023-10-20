@@ -182,6 +182,9 @@ class Polynomial
     {
         double discriminant = Math.Pow(b, 2) - 4 * a * c;
 
+        if (a == 0)
+            return "Произошла ошибка a не может быть равно нулю";
+
         if (discriminant > 0)
         {
             double x1 = (-b + Math.Sqrt(discriminant)) / (2 * a);
