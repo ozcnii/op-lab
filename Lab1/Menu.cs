@@ -1,6 +1,7 @@
 using Helpers;
 
 namespace Menu
+
 {
     public class ConsoleMenu
     {
