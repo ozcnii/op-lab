@@ -59,17 +59,17 @@ main(new Dictionary<string, Action>{
                 case "1":
                     Console.WriteLine("Введите число, на которое нужно увеличить");
                     counter.Increase(int.Parse(Console.ReadLine()!));
-                    Console.WriteLine(counter.GetValue());
+                    Console.WriteLine("Значение = " + counter.GetValue());
                     break;
 
                 case "2":
                     Console.WriteLine("Введите число, на которое нужно уменьшить");
                     counter.Decrease(int.Parse(Console.ReadLine()!));
-                    Console.WriteLine(counter.GetValue());
+                    Console.WriteLine("Значение = " + counter.GetValue());
                     break;
 
                 case "3":
-                    counter.GetValue();
+                    Console.WriteLine("Значение = " + counter.GetValue());
                     break;
 
                 default:
