@@ -5,6 +5,33 @@ namespace Lab5
         private int numerator;
         private int denominator;
 
+        public int Numerator
+        {
+            get
+            {
+                return numerator;
+            }
+            set
+            {
+                numerator = value;
+            }
+        }
+
+        public int Denominator
+        {
+            get
+            {
+                return denominator;
+
+            }
+            set
+            {
+                if (value == 0)
+                    throw new DivideByZeroException("Знаменатель не может быть равен нулю");
+                denominator = value;
+            }
+        }
+
         public Fraction()
         {
             denominator = 1;
@@ -12,78 +39,55 @@ namespace Lab5
 
         public Fraction(int numerator, int denominator)
         {
-            SetNumerator(numerator);
-            SetDenominator(denominator);
-        }
-
-        public int GetNumerator()
-        {
-            return numerator;
-        }
-
-        public int GetDenominator()
-        {
-            return denominator;
-        }
-
-        public void SetNumerator(int value)
-        {
-            numerator = value;
-        }
-
-        public void SetDenominator(int value)
-        {
-            if (value == 0)
-                throw new DivideByZeroException("Знаменатель не может быть равен нулю");
-
-            denominator = value;
+            Numerator = numerator;
+            Denominator = denominator;
         }
 
         public void Add(Fraction fraction)
         {
             var result = FractionMath.Add(this, fraction);
-            SetNumerator(result.GetNumerator());
-            SetDenominator(result.GetDenominator());
+            Numerator = result.Numerator;
+            Denominator = result.Denominator;
         }
 
         public void Sub(Fraction fraction)
         {
             var result = FractionMath.Sub(this, fraction);
-            SetNumerator(result.GetNumerator());
-            SetDenominator(result.GetDenominator());
+            Numerator = result.Numerator;
+            Denominator = result.Denominator;
         }
 
         public void Mul(Fraction fraction)
         {
             var result = FractionMath.Mul(this, fraction);
-            SetNumerator(result.GetNumerator());
-            SetDenominator(result.GetDenominator());
+            Numerator = result.Numerator;
+            Denominator = result.Denominator;
         }
 
         public void Div(Fraction fraction)
         {
             var result = FractionMath.Div(this, fraction);
-            SetNumerator(result.GetNumerator());
-            SetDenominator(result.GetDenominator());
+            Numerator = result.Numerator;
+            Denominator = result.Denominator;
         }
 
         public void Reduce()
         {
-            if (numerator == 0)
+            if (Numerator == 0)
                 return;
 
-            int gcd = GetGCD(numerator, denominator);
+            int gcd = GetGCD(Numerator, Denominator);
 
-            numerator /= gcd;
-            denominator /= gcd;
+            Numerator /= gcd;
+            Denominator /= gcd;
         }
 
         public void PrintInfo()
         {
-            if (numerator == 0)
+            if (Numerator == 0)
                 Console.WriteLine(0);
             else
-                Console.WriteLine($"{numerator}/{denominator}");
+                Console.WriteLine($"{Numerator}/{Denominator}");
         }
 
         public static Fraction operator +(Fraction first, Fraction second)
