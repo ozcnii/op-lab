@@ -1,4 +1,4 @@
-var main = (Dictionary<string, Action> menuActions) =>
+var menu = (Dictionary<string, Action> menuActions) =>
 {
     while (true)
     {
