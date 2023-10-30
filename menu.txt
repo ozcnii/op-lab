@@ -24,7 +24,6 @@ var menu = (Dictionary<string, Action> menuActions) =>
         else
         {
             menuActions.ElementAt(actionIndex - 1).Value();
-            Console.WriteLine("Все проверки прошли успешно\n");
         }
     }
 };
