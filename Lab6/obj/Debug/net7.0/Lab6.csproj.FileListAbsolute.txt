@@ -1,0 +1,14 @@
+C:\Users\qq\Desktop\aerokos\osnoviiiii\Lab6\bin\Debug\net7.0\Lab6.exe
+C:\Users\qq\Desktop\aerokos\osnoviiiii\Lab6\bin\Debug\net7.0\Lab6.deps.json
+C:\Users\qq\Desktop\aerokos\osnoviiiii\Lab6\bin\Debug\net7.0\Lab6.runtimeconfig.json
+C:\Users\qq\Desktop\aerokos\osnoviiiii\Lab6\bin\Debug\net7.0\Lab6.dll
+C:\Users\qq\Desktop\aerokos\osnoviiiii\Lab6\bin\Debug\net7.0\Lab6.pdb
+C:\Users\qq\Desktop\aerokos\osnoviiiii\Lab6\obj\Debug\net7.0\Lab6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\qq\Desktop\aerokos\osnoviiiii\Lab6\obj\Debug\net7.0\Lab6.AssemblyInfoInputs.cache
+C:\Users\qq\Desktop\aerokos\osnoviiiii\Lab6\obj\Debug\net7.0\Lab6.AssemblyInfo.cs
+C:\Users\qq\Desktop\aerokos\osnoviiiii\Lab6\obj\Debug\net7.0\Lab6.csproj.CoreCompileInputs.cache
+C:\Users\qq\Desktop\aerokos\osnoviiiii\Lab6\obj\Debug\net7.0\Lab6.dll
+C:\Users\qq\Desktop\aerokos\osnoviiiii\Lab6\obj\Debug\net7.0\refint\Lab6.dll
+C:\Users\qq\Desktop\aerokos\osnoviiiii\Lab6\obj\Debug\net7.0\Lab6.pdb
+C:\Users\qq\Desktop\aerokos\osnoviiiii\Lab6\obj\Debug\net7.0\Lab6.genruntimeconfig.cache
+C:\Users\qq\Desktop\aerokos\osnoviiiii\Lab6\obj\Debug\net7.0\ref\Lab6.dll

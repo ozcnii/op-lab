@@ -3,12 +3,12 @@ namespace Lab6
     public class ArraySort
     {
         private readonly int _size;
-        private int[] _value;
+        private int[] _array;
 
         public ArraySort()
         {
             _size = 0;
-            _value = Array.Empty<int>();
+            _array = Array.Empty<int>();
         }
 
         public ArraySort(int size)
@@ -16,7 +16,7 @@ namespace Lab6
             if (size < 0)
                 throw new Exception("Размерность массива не может быть отрицтельной");
             _size = size;
-            _value = new int[size];
+            _array = new int[size];
         }
 
         public void ConsoleReadArray()
@@ -26,21 +26,20 @@ namespace Lab6
             var arr = arrayString.Split(" ");
             if (arr.Length > _size)
                 throw new Exception("Количество элементов должно быть меньше или равно " + _size);
-            _value = arr.Select(int.Parse).ToArray();
+            _array = arr.Select(int.Parse).ToArray();
         }
 
         public void BubbleSort()
         {
             for (int i = 0; i < _size; i++)
             {
-                for (int j = i; i < _size; j++)
+                for (int j = 0; i < _size - i - 1; j++)
                 {
-                    if (_value[j] > _value[j + 1])
+                    if (_array[j] > _array[j + 1])
                     {
-                        (_value[j + 1], _value[j]) = (_value[j], _value[j + 1]);
+                        (_array[j + 1], _array[j]) = (_array[j], _array[j + 1]);
                     }
                 }
-
             }
         }
 
@@ -52,17 +51,17 @@ namespace Lab6
             {
                 for (int i = left; i < right; i++)
                 {
-                    if (_value[i] > _value[i + 1])
+                    if (_array[i] > _array[i + 1])
                     {
-                        (_value[i + 1], _value[i]) = (_value[i], _value[i + 1]);
+                        (_array[i + 1], _array[i]) = (_array[i], _array[i + 1]);
                     }
                 }
                 right--;
                 for (int i = right; i > left; i--)
                 {
-                    if (_value[i] < _value[i - 1])
+                    if (_array[i] < _array[i - 1])
                     {
-                        (_value[i - 1], _value[i]) = (_value[i], _value[i - 1]);
+                        (_array[i - 1], _array[i]) = (_array[i], _array[i - 1]);
                     }
                 }
                 left++;
@@ -73,16 +72,16 @@ namespace Lab6
         {
             for (int i = 1; i < _size; i++)
             {
-                int key = _value[i];
+                int key = _array[i];
                 int j = i - 1;
 
-                while (j >= 0 && _value[j] > key)
+                while (j >= 0 && _array[j] > key)
                 {
-                    _value[j + 1] = _value[j];
+                    _array[j + 1] = _array[j];
                     j--;
                 }
 
-                _value[j + 1] = key;
+                _array[j + 1] = key;
             }
         }
 
@@ -91,27 +90,27 @@ namespace Lab6
             QuickSortImpl(0, _size);
         }
 
-        public void QuickSortImpl(int low, int high)
+        private void QuickSortImpl(int low, int high)
         {
             if (low < high)
             {
-                int pivot = _value[low];
+                int pivot = _array[low];
                 int left = low + 1;
                 int right = high;
 
                 while (left <= right)
                 {
-                    while (left <= right && _value[left] <= pivot)
+                    while (left <= right && _array[left] <= pivot)
                         left++;
 
-                    while (_value[right] >= pivot && right >= left)
+                    while (_array[right] >= pivot && right >= left)
                         right--;
 
                     if (right >= left)
-                        (_value[right], _value[left]) = (_value[left], _value[right]);
+                        (_array[right], _array[left]) = (_array[left], _array[right]);
                 }
 
-                (_value[right], _value[low]) = (_value[low], _value[right]);
+                (_array[right], _array[low]) = (_array[low], _array[right]);
 
                 QuickSortImpl(low, right - 1);
                 QuickSortImpl(right + 1, high);
@@ -123,7 +122,7 @@ namespace Lab6
             Console.Write("{ ");
             for (int i = 0; i < _size; i++)
             {
-                Console.Write(_value[i]);
+                Console.Write(_array[i]);
                 if (i < _size - 1)
                     Console.Write(", ");
             }
