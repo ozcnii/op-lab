@@ -1,0 +1,14 @@
+C:\Users\qq\Desktop\aerokos\osnoviiiii\Lab7\Additional\bin\Debug\net7.0\Additional.exe
+C:\Users\qq\Desktop\aerokos\osnoviiiii\Lab7\Additional\bin\Debug\net7.0\Additional.deps.json
+C:\Users\qq\Desktop\aerokos\osnoviiiii\Lab7\Additional\bin\Debug\net7.0\Additional.runtimeconfig.json
+C:\Users\qq\Desktop\aerokos\osnoviiiii\Lab7\Additional\bin\Debug\net7.0\Additional.dll
+C:\Users\qq\Desktop\aerokos\osnoviiiii\Lab7\Additional\bin\Debug\net7.0\Additional.pdb
+C:\Users\qq\Desktop\aerokos\osnoviiiii\Lab7\Additional\obj\Debug\net7.0\Additional.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\qq\Desktop\aerokos\osnoviiiii\Lab7\Additional\obj\Debug\net7.0\Additional.AssemblyInfoInputs.cache
+C:\Users\qq\Desktop\aerokos\osnoviiiii\Lab7\Additional\obj\Debug\net7.0\Additional.AssemblyInfo.cs
+C:\Users\qq\Desktop\aerokos\osnoviiiii\Lab7\Additional\obj\Debug\net7.0\Additional.csproj.CoreCompileInputs.cache
+C:\Users\qq\Desktop\aerokos\osnoviiiii\Lab7\Additional\obj\Debug\net7.0\Additional.dll
+C:\Users\qq\Desktop\aerokos\osnoviiiii\Lab7\Additional\obj\Debug\net7.0\refint\Additional.dll
+C:\Users\qq\Desktop\aerokos\osnoviiiii\Lab7\Additional\obj\Debug\net7.0\Additional.pdb
+C:\Users\qq\Desktop\aerokos\osnoviiiii\Lab7\Additional\obj\Debug\net7.0\Additional.genruntimeconfig.cache
+C:\Users\qq\Desktop\aerokos\osnoviiiii\Lab7\Additional\obj\Debug\net7.0\ref\Additional.dll

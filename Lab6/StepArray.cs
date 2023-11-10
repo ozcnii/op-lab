@@ -36,15 +36,16 @@ namespace Lab6
 
             foreach (var row in _array)
                 for (int i = 0; i < row.Length; i++)
-                    row[i] = flatArray[currIdx];
+                    row[i] = flatArray[currIdx++];
         }
 
         private int[] Flat()
         {
-            int[] flatArray = new int[_cols];
+            int totalElements = _array.Sum(row => row.Length);
+            int[] flatArray = new int[totalElements];
             int currIdx = 0;
 
-            for (int i = 0; i < _cols; i++)
+            for (int i = 0; i < _array.Length; i++)
             {
                 for (int j = 0; j < _array[i].Length; j++)
                 {

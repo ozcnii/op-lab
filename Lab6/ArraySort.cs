@@ -19,6 +19,25 @@ namespace Lab6
             _array = new int[size];
         }
 
+        public int[] GetRandomArray(int minValue = -100, int maxValue = 100)
+        {
+            var array = new int[_size];
+            var random = new Random();
+
+            if (minValue > maxValue)
+                (minValue, maxValue) = (maxValue, minValue);
+
+            for (int i = 0; i < _size; i++)
+                array[i] = random.Next(minValue, maxValue);
+
+            return array;
+        }
+
+        public void SetArray(int[] value)
+        {
+            _array = value;
+        }
+
         public void ConsoleReadArray()
         {
             Console.WriteLine("Введите элементы массива через пробел");
@@ -33,7 +52,7 @@ namespace Lab6
         {
             for (int i = 0; i < _size; i++)
             {
-                for (int j = 0; i < _size - i - 1; j++)
+                for (int j = 0; j < _size - i - 1; j++)
                 {
                     if (_array[j] > _array[j + 1])
                     {
@@ -87,7 +106,7 @@ namespace Lab6
 
         public void QuickSort()
         {
-            QuickSortImpl(0, _size);
+            QuickSortImpl(0, _size - 1);
         }
 
         private void QuickSortImpl(int low, int high)
