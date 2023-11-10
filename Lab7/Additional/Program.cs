@@ -46,7 +46,7 @@ class Program
 
     static int RomanToArabic(string roman)
     {
-        Dictionary<char, int> romanMap = new Dictionary<char, int>
+        var romanMap = new Dictionary<char, int>
         {
             {'I', 1},
             {'V', 5},
@@ -81,20 +81,35 @@ class Program
             throw new ArgumentOutOfRangeException("Входное число должно быть в пределах от 1 до 3999");
         }
 
-        string[] romanSymbols = { "M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I" };
-        int[] arabicValues = { 1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1 };
+        var romanMap = new Dictionary<int, string>
+        {
+            {1000, "M"},
+            {900, "CM"},
+            {500, "D"},
+            {400, "CD"},
+            {100, "C"},
+            {90, "XC"},
+            {50, "L"},
+            {40, "XL"},
+            {10, "X"},
+            {9, "IX"},
+            {5, "V"},
+            {4, "IV"},
+            {1, "I"}
+        };
 
         string result = "";
 
-        for (int i = 0; i < romanSymbols.Length; i++)
+        foreach (var kvp in romanMap)
         {
-            while (arabic >= arabicValues[i])
+            while (arabic >= kvp.Key)
             {
-                result += romanSymbols[i];
-                arabic -= arabicValues[i];
+                result += kvp.Value;
+                arabic -= kvp.Key;
             }
         }
 
         return result;
     }
+
 }
