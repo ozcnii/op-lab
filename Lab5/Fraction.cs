@@ -97,17 +97,17 @@ namespace Lab5
 
         public static Fraction operator -(Fraction first, Fraction second)
         {
-            return FractionMath.Add(first, second);
+            return FractionMath.Sub(first, second);
         }
 
         public static Fraction operator *(Fraction first, Fraction second)
         {
-            return FractionMath.Add(first, second);
+            return FractionMath.Mul(first, second);
         }
 
         public static Fraction operator /(Fraction first, Fraction second)
         {
-            return FractionMath.Add(first, second);
+            return FractionMath.Div(first, second);
         }
 
         private static int GetGCD(int a, int b)
