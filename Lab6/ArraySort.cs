@@ -19,19 +19,6 @@ namespace Lab6
             _array = new int[size];
         }
 
-        public int[] GetRandomArray(int minValue = -100, int maxValue = 100)
-        {
-            var array = new int[_size];
-            var random = new Random();
-
-            if (minValue > maxValue)
-                (minValue, maxValue) = (maxValue, minValue);
-
-            for (int i = 0; i < _size; i++)
-                array[i] = random.Next(minValue, maxValue);
-
-            return array;
-        }
 
         public void SetArray(int[] value)
         {
@@ -147,5 +134,20 @@ namespace Lab6
             }
             Console.WriteLine(" }");
         }
+
+        public int[] GetRandomArray(int minValue = -100, int maxValue = 100)
+        {
+            var array = new int[_size];
+            var random = new Random();
+
+            if (minValue > maxValue)
+                (minValue, maxValue) = (maxValue, minValue);
+
+            for (int i = 0; i < _size; i++)
+                array[i] = random.Next(minValue, maxValue);
+
+            return array;
+        }
+
     }
 }
