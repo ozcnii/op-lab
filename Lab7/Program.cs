@@ -6,3 +6,5 @@ Console.WriteLine(Stringer.Replace("привет, как дела. привет�
 Console.WriteLine(Stringer.IsDate("11.11.11"));
 Console.WriteLine(Stringer.IsDate("11.11.222"));
 Console.WriteLine(Stringer.CountSubstrings("32323", "323"));
+Console.WriteLine(Stringer.IsPalindrom("qwe12!33.21ewq"));
+Console.WriteLine(Stringer.IsPalindrom("qwe12!33.212ewq"));

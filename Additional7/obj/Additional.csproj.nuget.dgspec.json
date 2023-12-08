@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\qq\\Desktop\\aerokos\\osnoviiiii\\Lab7\\Additional\\Additional.csproj": {}
+    "C:\\Users\\qq\\Desktop\\aerokos\\osnoviiiii\\Additional7\\Additional.csproj": {}
   },
   "projects": {
-    "C:\\Users\\qq\\Desktop\\aerokos\\osnoviiiii\\Lab7\\Additional\\Additional.csproj": {
+    "C:\\Users\\qq\\Desktop\\aerokos\\osnoviiiii\\Additional7\\Additional.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\qq\\Desktop\\aerokos\\osnoviiiii\\Lab7\\Additional\\Additional.csproj",
+        "projectUniqueName": "C:\\Users\\qq\\Desktop\\aerokos\\osnoviiiii\\Additional7\\Additional.csproj",
         "projectName": "Additional",
-        "projectPath": "C:\\Users\\qq\\Desktop\\aerokos\\osnoviiiii\\Lab7\\Additional\\Additional.csproj",
+        "projectPath": "C:\\Users\\qq\\Desktop\\aerokos\\osnoviiiii\\Additional7\\Additional.csproj",
         "packagesPath": "C:\\Users\\qq\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\qq\\Desktop\\aerokos\\osnoviiiii\\Lab7\\Additional\\obj\\",
+        "outputPath": "C:\\Users\\qq\\Desktop\\aerokos\\osnoviiiii\\Additional7\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\qq\\AppData\\Roaming\\NuGet\\NuGet.Config"

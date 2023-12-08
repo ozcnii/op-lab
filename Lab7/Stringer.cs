@@ -1,3 +1,5 @@
+using System.Text;
+using System.Globalization;
 using System.Text.RegularExpressions;
 
 namespace Lab7
@@ -12,7 +14,8 @@ namespace Lab7
 
         public static double AverageWordCount(string value)
         {
-            var words = value.Split(" ");
+            var separators = new char[] { ' ', '!', '.', '?', ',' };
+            var words = value.Split(separators, StringSplitOptions.RemoveEmptyEntries);
             return words.Aggregate(0, (acc, curr) => acc += curr.Length) / words.Length;
         }
 
@@ -51,35 +54,38 @@ namespace Lab7
         {
             int count = 0;
             for (int i = 0; i <= value.Length - substr.Length; i++)
-                if (value.Substring(i, substr.Length) == substr)
+                if (value.Substring(i, substr.Length).ToLower() == substr.ToLower())
                     count++;
             return count;
         }
 
         public static bool IsPalindrom(string value)
         {
-            return value == string.Join("", value.ToArray().Reverse());
+            Regex regex = new Regex(@"[\p{L}\d]");
+            MatchCollection matches = regex.Matches(value);
+
+            var resultBuilder = new StringBuilder();
+
+            foreach (Match match in matches)
+            {
+                resultBuilder.Append(match.Value);
+            }
+            var cleanString = resultBuilder.ToString();
+            return cleanString == string.Join("", cleanString.ToArray().Reverse());
         }
 
-        public static bool IsDate(string value)
+        public static bool IsDate(string date)
         {
-            var arr = value.Split(".");
-            if (arr.Length != 3)
+            try
+            {
+                bool isDate = DateTime.TryParseExact(date, new[] { "dd.MM.yy", "dd.MM.yyyy" }, CultureInfo.InvariantCulture, DateTimeStyles.None, out DateTime time);
+                return isDate;
+            }
+            catch (Exception)
+            {
                 return false;
 
-            var dParsed = int.TryParse(arr[0], out int d);
-            if (!dParsed || d < 1 || d > 31)
-                return false;
-
-            var mParsed = int.TryParse(arr[1], out int m);
-            if (!mParsed || m < 1 || m > 12)
-                return false;
-
-            var yParsed = int.TryParse(arr[2], out int y);
-            if (!yParsed || y < 0 || arr[2].Length < 2)
-                return false;
-
-            return true;
+            }
         }
     }
 }
