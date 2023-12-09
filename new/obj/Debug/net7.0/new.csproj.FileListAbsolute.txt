@@ -1,0 +1,14 @@
+C:\Users\qq\Desktop\aerokos\osnoviiiii\new\bin\Debug\net7.0\new.exe
+C:\Users\qq\Desktop\aerokos\osnoviiiii\new\bin\Debug\net7.0\new.deps.json
+C:\Users\qq\Desktop\aerokos\osnoviiiii\new\bin\Debug\net7.0\new.runtimeconfig.json
+C:\Users\qq\Desktop\aerokos\osnoviiiii\new\bin\Debug\net7.0\new.dll
+C:\Users\qq\Desktop\aerokos\osnoviiiii\new\bin\Debug\net7.0\new.pdb
+C:\Users\qq\Desktop\aerokos\osnoviiiii\new\obj\Debug\net7.0\new.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\qq\Desktop\aerokos\osnoviiiii\new\obj\Debug\net7.0\new.AssemblyInfoInputs.cache
+C:\Users\qq\Desktop\aerokos\osnoviiiii\new\obj\Debug\net7.0\new.AssemblyInfo.cs
+C:\Users\qq\Desktop\aerokos\osnoviiiii\new\obj\Debug\net7.0\new.csproj.CoreCompileInputs.cache
+C:\Users\qq\Desktop\aerokos\osnoviiiii\new\obj\Debug\net7.0\new.dll
+C:\Users\qq\Desktop\aerokos\osnoviiiii\new\obj\Debug\net7.0\refint\new.dll
+C:\Users\qq\Desktop\aerokos\osnoviiiii\new\obj\Debug\net7.0\new.pdb
+C:\Users\qq\Desktop\aerokos\osnoviiiii\new\obj\Debug\net7.0\new.genruntimeconfig.cache
+C:\Users\qq\Desktop\aerokos\osnoviiiii\new\obj\Debug\net7.0\ref\new.dll

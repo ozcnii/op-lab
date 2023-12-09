@@ -1,0 +1,14 @@
+C:\Users\qq\Desktop\aerokos\osnoviiiii\Lab7.2\bin\Debug\net7.0\Lab7.2.exe
+C:\Users\qq\Desktop\aerokos\osnoviiiii\Lab7.2\bin\Debug\net7.0\Lab7.2.deps.json
+C:\Users\qq\Desktop\aerokos\osnoviiiii\Lab7.2\bin\Debug\net7.0\Lab7.2.runtimeconfig.json
+C:\Users\qq\Desktop\aerokos\osnoviiiii\Lab7.2\bin\Debug\net7.0\Lab7.2.dll
+C:\Users\qq\Desktop\aerokos\osnoviiiii\Lab7.2\bin\Debug\net7.0\Lab7.2.pdb
+C:\Users\qq\Desktop\aerokos\osnoviiiii\Lab7.2\obj\Debug\net7.0\Lab7.2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\qq\Desktop\aerokos\osnoviiiii\Lab7.2\obj\Debug\net7.0\Lab7.2.AssemblyInfoInputs.cache
+C:\Users\qq\Desktop\aerokos\osnoviiiii\Lab7.2\obj\Debug\net7.0\Lab7.2.AssemblyInfo.cs
+C:\Users\qq\Desktop\aerokos\osnoviiiii\Lab7.2\obj\Debug\net7.0\Lab7.2.csproj.CoreCompileInputs.cache
+C:\Users\qq\Desktop\aerokos\osnoviiiii\Lab7.2\obj\Debug\net7.0\Lab7.2.dll
+C:\Users\qq\Desktop\aerokos\osnoviiiii\Lab7.2\obj\Debug\net7.0\refint\Lab7.2.dll
+C:\Users\qq\Desktop\aerokos\osnoviiiii\Lab7.2\obj\Debug\net7.0\Lab7.2.pdb
+C:\Users\qq\Desktop\aerokos\osnoviiiii\Lab7.2\obj\Debug\net7.0\Lab7.2.genruntimeconfig.cache
+C:\Users\qq\Desktop\aerokos\osnoviiiii\Lab7.2\obj\Debug\net7.0\ref\Lab7.2.dll
