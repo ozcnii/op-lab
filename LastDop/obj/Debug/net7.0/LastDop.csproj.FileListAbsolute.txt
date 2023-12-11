@@ -1,0 +1,14 @@
+C:\Users\qq\Desktop\aerokos\osnoviiiii\LastDop\bin\Debug\net7.0\LastDop.exe
+C:\Users\qq\Desktop\aerokos\osnoviiiii\LastDop\bin\Debug\net7.0\LastDop.deps.json
+C:\Users\qq\Desktop\aerokos\osnoviiiii\LastDop\bin\Debug\net7.0\LastDop.runtimeconfig.json
+C:\Users\qq\Desktop\aerokos\osnoviiiii\LastDop\bin\Debug\net7.0\LastDop.dll
+C:\Users\qq\Desktop\aerokos\osnoviiiii\LastDop\bin\Debug\net7.0\LastDop.pdb
+C:\Users\qq\Desktop\aerokos\osnoviiiii\LastDop\obj\Debug\net7.0\LastDop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\qq\Desktop\aerokos\osnoviiiii\LastDop\obj\Debug\net7.0\LastDop.AssemblyInfoInputs.cache
+C:\Users\qq\Desktop\aerokos\osnoviiiii\LastDop\obj\Debug\net7.0\LastDop.AssemblyInfo.cs
+C:\Users\qq\Desktop\aerokos\osnoviiiii\LastDop\obj\Debug\net7.0\LastDop.csproj.CoreCompileInputs.cache
+C:\Users\qq\Desktop\aerokos\osnoviiiii\LastDop\obj\Debug\net7.0\LastDop.dll
+C:\Users\qq\Desktop\aerokos\osnoviiiii\LastDop\obj\Debug\net7.0\refint\LastDop.dll
+C:\Users\qq\Desktop\aerokos\osnoviiiii\LastDop\obj\Debug\net7.0\LastDop.pdb
+C:\Users\qq\Desktop\aerokos\osnoviiiii\LastDop\obj\Debug\net7.0\LastDop.genruntimeconfig.cache
+C:\Users\qq\Desktop\aerokos\osnoviiiii\LastDop\obj\Debug\net7.0\ref\LastDop.dll
