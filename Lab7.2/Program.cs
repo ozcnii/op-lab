@@ -1,7 +1,4 @@
 ﻿using Lab7;
-
-// Привет, приветствие, привет.
-// палиндром Я умру, хлебороб, - ел хурму я!
 class Program
 {
     public static void Main()
@@ -56,15 +53,13 @@ class Program
                         string substr = Console.ReadLine()!;
                         Console.WriteLine("количество подстрок: " + Stringer.CountSubstrings(input, substr));
                         break;
-
                     }
 
                 case "5":
                     {
-                        // Console.WriteLine("введите строку");
-                        // string input = Console.ReadLine()!;
-                        // Console.WriteLine("строка палиндром :" + Stringer.IsPalindrom(input));
-                        Console.WriteLine(Stringer.IsPalindrom("Я умру, хлебороб, - ел хурму я!"));
+                        Console.WriteLine("введите строку");
+                        string input = Console.ReadLine()!;
+                        Console.WriteLine("строка палиндром :" + Stringer.IsPalindrom(input));
                         break;
                     }
 
@@ -92,11 +87,3 @@ class Program
         }
     }
 }
-// Console.WriteLine(Stringer.LettersCount("123asdqwe! sad"));
-// Console.WriteLine(Stringer.AverageWordCount("123asdqwe! sad"));
-// Console.WriteLine(Stringer.Replace("привет, как дела. приветсвие, апривет .привет", "привет", "0"));
-// Console.WriteLine(Stringer.IsDate("11.11.11"));
-// Console.WriteLine(Stringer.IsDate("11.11.222"));
-// Console.WriteLine(Stringer.CountSubstrings("32323", "323"));
-// Console.WriteLine(Stringer.IsPalindrom("qwe12!33.21ewq"));
-// Console.WriteLine(Stringer.IsPalindrom("qwe12!33.212ewq"));
